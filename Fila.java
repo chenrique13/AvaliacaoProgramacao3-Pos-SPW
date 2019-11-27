@@ -29,6 +29,7 @@ public class Fila {
 				filaAux[i] = fila[i];
 			}
 			dimensaoFila -= 1;
+			System.out.println("Proxima Senha: " + fila[0]);
 			fila = new int[dimensaoFila];
 			for (int i = 1; i < filaAux.length; i++) {
 				fila[i - 1] = filaAux[i];
