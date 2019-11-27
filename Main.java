@@ -42,6 +42,7 @@ public class Main {
 					/*Finalizar Programa*/
 				case 0:
 					System.out.println("Programa finalizado!");
+					continua = false;
 					break;
 					
 					/*Opcao Errada*/
